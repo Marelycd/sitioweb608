@@ -1,0 +1,86 @@
+/* selector universal */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Manrope&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+ margin: 0;
+    font-family: Manrope, sans-serif;
+    background-color: #ccc; 
+}    
+/* selector de tipo */
+label{
+display: block;
+font-weight: 700;
+margin-bottom: 6px;
+text-align: left
+
+}
+
+button{
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    margin-top: 10px;
+    text-align: center;
+
+}
+button:hover{
+    background-color: aqua;
+    color: #0a1f44;
+    font-size: 20px;
+    transition: all 0.3 ease;
+
+}
+
+input,textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 18px;
+border: 1px solid #ccc;
+border-radius: 8px;
+font-size: 15px;
+font-family: Manrope;
+transition: border-color 0.3 ease;
+box-sizing: border-box;
+
+}
+
+input:focus,textarea:focus{
+
+    border-color: #FF5a5f;
+    outline: none;
+    outline: none;
+}
+/* slector de clase */
+.contenedor {
+    background-color: #0a1f44;
+    color: #fff;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    width: 100%;
+    margin: 40px auto;
+    max-width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+header{
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
