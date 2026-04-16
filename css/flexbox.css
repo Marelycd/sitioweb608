@@ -1,47 +1,55 @@
 *{
+
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-.contenedor_wrap{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: antiquewhite;
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 3px;
-    width: 500px;
+}   
+ 
+    .contenedor_wrap{
+        display: flex;
+        flex-direction:row ;
+        flex-wrap: wrap;
+        background-color: antiquewhite;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 3px;
+        width: 500px;
 
-}
-.item{
-    background-color: rgb(191,204,200);
-    width: 100px;
-    margin: 10px;
-    border: 2px solid;
-    text-align: center;
-    font-size: 75px;
-    line-height: 75px;
+    }
+        .item{
+            background-color: rgb(191, 204, 200);
+            width: 100px;
+            margin: 10px;
+            border: 2px solid;
+            text-align: center;
+            font-size: 75px;
+            line-height: 75px;
+            
+        }
+        .item:hover{
+            background-color: rgb(112,105,105);
+            color: black;
 
-}
-.item:hover{
-    background-color: rgb(112,105,105);
-}
-.contenedor_centrado{
-    display: flex; 
-    flex-direction: row;
-    justify-content: center; 
-    background-color: aqua;
-    padding: 10px;
-    border: solid;
-    width: 500px;
-}
-body{
-    background-color: blanchedalmond;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+        }
+         body {
+            background-color: pink;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;            
+         }
+
+         .contenedor_centrado{
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+            background-color: beige;
+            padding: 10px;
+            border: solid;
+            width: 500px;
+            
+         }
+
+
+        
