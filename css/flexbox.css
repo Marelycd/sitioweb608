@@ -1,5 +1,4 @@
 *{
-
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -14,8 +13,8 @@
         border: 2px solid black;
         border-radius: 3px;
         width: 500px;
-
     }
+
         .item{
             background-color: rgb(191, 204, 200);
             width: 100px;
@@ -23,14 +22,14 @@
             border: 2px solid;
             text-align: center;
             font-size: 75px;
-            line-height: 75px;
-            
+            line-height: 75px;          
         }
+
         .item:hover{
             background-color: rgb(112,105,105);
             color: black;
-
         }
+
          body {
             background-color: pink;
             display: flex;
@@ -40,16 +39,72 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;            
          }
 
-         .contenedor_centrado{
+         .contenedor_end{
+            display: flex;
+            flex-direction: row;
+            justify-items: end;
+            background-color: beige;
+            padding: 10px;
+            border: solid;
+            width: 1000px;   
+         }
+
+        .contenedor_centrado{
             display: flex;
             flex-direction: row;
             justify-items: center;
             background-color: beige;
             padding: 10px;
             border: solid;
-            width: 500px;
-            
+            width: 500px;   
          }
+
+         .contenedor_spaceAround{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            justify-items: end;
+            background-color: beige;
+            padding: 10px;
+            border: solid;
+            width: 1000px;   
+         }
+
+          .contenedor_stretch{
+            display: flex;
+            flex-direction: row;
+            justify-content: stretch;
+            justify-content: space-around;
+            background-color: beige;
+            padding: 10px;
+            border: solid;
+            width: 1000px; 
+            height: 500px;  
+         }
+
+.contenedor_centrado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;    
+    background-color: beige;
+    padding: 10px;
+    border: solid;
+    width: 500px;
+    height: 300px; 
+}
+
+         
+
+
+
+
+
+         
+         
+
+
+
 
 
         
