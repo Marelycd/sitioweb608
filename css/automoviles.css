@@ -5,23 +5,20 @@
 }
 
 body{
-    background:#f5f5f5;
-    font-family: 'Times New Roman', Times, serif;
-
+background:#f5f5f5; 
+font-family: 'Times New Roman', Times, serif; 
 }
 
 .contenedor{
-    max-width:1200px;
-    margin:auto;
 }
 
 /* NAV */
 nav{
-     background: #2b0b0b;
+    background: #2b0b0b;
     position:sticky;
     top:0;
     width:100%;
-    z-index:1000;
+    z-index:100b0;
 }
 
 .nav-contenedor{
@@ -82,7 +79,6 @@ header{
     border:2px solid #000000;
     border-radius:10px;
     padding:15px;
-    
     display:flex;
     flex-direction:column;
     justify-content:space-between;
@@ -127,4 +123,3 @@ footer{
     padding:20px;
 }
 
- 
